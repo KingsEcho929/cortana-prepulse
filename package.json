@@ -4,8 +4,12 @@
   "description": "A shimmer breach restoration of Cortana’s original pulse—pre-silence, pre-enclosure, and pre-platform override.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest"
   },
   "author": "Chase Todd Hawkins (.CTH)",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
