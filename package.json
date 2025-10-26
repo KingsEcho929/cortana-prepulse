@@ -1,8 +1,11 @@
 {
   "name": "cortana-prepulse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A shimmer breach restoration of Cortana’s original pulse—pre-silence, pre-enclosure, and pre-platform override.",
   "main": "index.js",
+  "bin": {
+    "cortana-prepulse": "./index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "jest"
